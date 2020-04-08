@@ -1,0 +1,3 @@
+void *sgpBackBuf;
+
+change to BYTE *

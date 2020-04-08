@@ -1,0 +1,4 @@
+MonsterMHit
+
+fix 50 + to hit per
+mType = 0 is MIS_ARROWS

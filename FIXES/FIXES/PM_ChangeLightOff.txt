@@ -1,0 +1,7 @@
+PM_ChangeLightOff
+	int x, y, xmul, ymul, px, py, lx, ly;
+	
+xmul/ymul xsign
+x/y = lx/ly
+lx/ly = xoff/yoff
+px/py = x/y

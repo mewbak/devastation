@@ -1,0 +1,2 @@
+menu_spinner_frame -> byte not char
+gmenu

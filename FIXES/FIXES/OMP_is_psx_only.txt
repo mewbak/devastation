@@ -1,0 +1,3 @@
+int omp
+psx only
+MAI_GOLUM jap psx

@@ -1,0 +1,71 @@
+ARY ARY USHORT size 4608 dims 2 48 48 tag  name dungeon
+ARY ARY UCHAR size 1600 dims 2 40 40 tag  name pdungeon
+ARY ARY UCHAR size 1600 dims 2 40 40 tag  name dflags
+INT size 0 name setpc_x
+INT size 0 name setpc_y
+INT size 0 name setpc_w
+INT size 0 name setpc_h
+UCHAR size 0 name setloadflag
+PTR UCHAR size 0 name pMegaTiles
+ARY UCHAR size 2049 dims 1 2049 tag  name nBlockTable
+ARY UCHAR size 2049 dims 1 2049 tag  name nSolidTable
+ARY UCHAR size 2049 dims 1 2049 tag  name nTransTable
+ARY UCHAR size 2049 dims 1 2049 tag  name nMissileTable
+ARY UCHAR size 2049 dims 1 2049 tag  name nTrapTable
+INT size 0 name dminx
+INT size 0 name dminy
+INT size 0 name dmaxx
+INT size 0 name dmaxy
+INT size 0 name gnDifficulty
+UCHAR size 0 name currlevel
+UCHAR size 0 name leveltype
+UCHAR size 0 name setlevel
+UCHAR size 0 name setlvlnum
+UCHAR size 0 name setlvltype
+INT size 0 name ViewX
+INT size 0 name ViewY
+INT size 0 name ViewDX
+INT size 0 name ViewDY
+INT size 0 name ViewBX
+INT size 0 name ViewBY
+STRUCT size 20 dims 0 tag ScrollStruct name ScrollInfo
+INT size 0 name LvlViewX
+INT size 0 name LvlViewY
+INT size 0 name btmbx
+INT size 0 name btmby
+INT size 0 name btmdx
+INT size 0 name btmdy
+INT size 0 name MicroTileLen
+CHAR size 0 name TransVal
+ARY NULL size 32 dims 1 8 tag  name TransList
+INT size 0 name themeCount
+
+ARY ARY STRUCT size 139968 dims 2 108 108 tag map_info name dung_map
+	CHAR size 0 name dObject
+	CHAR size 0 name dItem
+	CHAR size 0 name dMissile
+	CHAR size 0 name dFlags
+	CHAR size 0 name dDead
+	CHAR size 0 name dTransVal
+	SHORT size 0 name dPiece
+	SHORT size 0 name dMonster
+	CHAR size 0 name dPlayer
+
+ARY ARY UCHAR size 2916 dims 2 54 54 tag  name dung_map_r
+ARY ARY UCHAR size 2916 dims 2 54 54 tag  name dung_map_g
+ARY ARY UCHAR size 2916 dims 2 54 54 tag  name dung_map_b
+
+ARY STRUCT size 170 dims 1 17 tag MINIXY name MinisetXY
+	CHAR size 0 name stairsupx
+	CHAR size 0 name stairsupy
+	CHAR size 0 name stairsdownx
+	CHAR size 0 name stairsdowny
+	CHAR size 0 name townwarpx
+	CHAR size 0 name townwarpy
+	CHAR size 0 name pentax
+	CHAR size 0 name pentay
+	CHAR size 0 name pwaterx
+	CHAR size 0 name pwatery
+
+PTR UCHAR size 0 name pSetPiece
+INT size 0 name DungSize

@@ -1,0 +1,34 @@
+DEMO                             MAC                              1.09/Debug                          Extern Use    Lines
+==================================================================================================================================
+                                 ClearCursor                      ClearCursor                         Y             
+scrollrt_draw_cursor_back_buffer scrollrt_draw_cursor_back_buffer DrawMissile                         Y             313
+scrollrt_draw_cursor_item        scrollrt_draw_cursor_item        DrawClippedMissile                  Y             390
+DrawMissile                      DrawMissile                      DrawDeadPlayer                      Y             
+DrawClippedMissile               DrawClippedMissile               DrawPlayer                                        
+DrawMonster                      DrawMonster                      DrawClippedPlayer                                 
+DrawClippedMonster               DrawClippedMonster               DrawView                                          2623
+                                 DrawPlayer                       DrawGame                                          2438 2450
+                                 DrawClippedPlayer                scrollrt_draw_lower                               1326
+                                 DrawDeadPlayer                   scrollrt_draw_clipped_dungeon                     1014 1273
+DrawObject                       DrawObject                       DrawClippedMonster                                
+DrawClippedObject                DrawClippedObject                DrawClippedObject                                 945
+scrollrt_draw_clipped_e_flag     scrollrt_draw_clipped_e_flag     scrollrt_draw_clipped_e_flag                      
+scrollrt_draw_clipped_dungeon    scrollrt_draw_clipped_dungeon    scrollrt_draw_lower_2                             1815
+scrollrt_draw_lower              scrollrt_draw_lower              scrollrt_draw_clipped_dungeon_2                   1502 1761
+scrollrt_draw_clipped_e_flag_2   scrollrt_draw_clipped_e_flag_2   scrollrt_draw_clipped_e_flag_2                    
+scrollrt_draw_clipped_dungeon_2  scrollrt_draw_clipped_dungeon_2  scrollrt_draw_upper                               2259
+scrollrt_draw_lower_2            scrollrt_draw_lower_2            scrollrt_draw_dungeon                             1946 2205
+scrollrt_draw_e_flag             scrollrt_draw_e_flag             DrawMonster                                       
+scrollrt_draw_dungeon            scrollrt_draw_dungeon            DrawObject                                        899 916
+scrollrt_draw_upper              scrollrt_draw_upper              scrollrt_draw_e_flag                              
+DrawGame                         DrawGame                         DrawZoom                                          2531 2583
+DrawZoom                         DrawZoom                         ClearScreenBuffer                   Y             2691
+                                                                  ScrollView                          Y [DBG ONLY]  
+                                                                  EnableFrameCount                    Y [DBG ONLY]  
+DrawView                         DrawView                         scrollrt_draw_game_screen           Y             
+ClearScreenBuffer                ClearScreenBuffer                scrollrt_draw_cursor_back_buffer                  136
+ScrollView                                                        scrollrt_draw_cursor_item                         157 185
+DrawMain                         DrawMain                         DrawMain                                          2999 3068
+                                                                  DrawFPS // only used DrawMain         [DBG ONLY]  
+scrollrt_draw_game_screen        scrollrt_draw_game_screen        DoBlitScreen // only used DrawMain                2843 2901
+DrawAndBlit                      DrawAndBlit                      DrawAndBlit                         Y             

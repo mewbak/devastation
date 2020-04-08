@@ -1,0 +1,50 @@
+.rdata missing
+-------------------------------------------------------
+- capture.cpp
+screen??.PCX
+screen%02d.PCX
+
+- diablo.cpp
+dd_emulate
+dd_backbuf
+ds_noduplicates
+
+- drlg_l3.cpp
+L3SpawnTbl1
+L3SpawnTbl2
+L3PoolSub
+
+- fault.cpp
+*unknown*
+
+- init.cpp
+DIABLO (also diablo.cpp WINMAIN) init_create_window
+ScreenSaveActive
+
+- palette.cpp
+Gamma Correction
+Color Cycling
+
+- pfile.cpp
+game
+[to]]]]]]]]]]]]]
+temps%02d
+
+- player.cpp
+AddPlrExperience -> double 1.0
+
+- scrollrt.cpp
+unknown action
+
+- sound.cpp
+Sound Volume
+Music Volume
+Diablo
+
+- towners.cpp
+snSFX
+
+
+.data missing
+-------------------------------------------------------
+delete -> storm delete construct

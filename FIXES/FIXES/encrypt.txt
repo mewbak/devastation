@@ -1,0 +1,34 @@
+// MAC battle.net updater, encrypt.cpp function names
+
+.Decrypt__FPUiUiUi
+.Hash__FPCci
+.InitializeHashSource__FUi
+.PkwareBufferRead
+.PkwareBufferWrite
+.PkwareDecompress__FPvPUiPCvUi
+
+SNP Names for Null in mac standard.snp
+dword_10F3C:
+    .long 92
+	NullCompareNetAddresses
+	NullDestroy
+	NullFree
+	NullFreeExternalMessage
+	NullGetGameInfo
+	NullGetPerformanceData
+	NullInitialize
+	NullInitializeDevice
+	NullLockDeviceList
+	NullLockGameList
+	NullReceive
+	NullReceiveExternalMessage
+	NullSelectGame
+	NullSend
+	NullSendExternalMessage
+	NullStartAdvertisingGame
+	NullStopAdvertisingGame
+	NullUnlockDeviceList
+	NullUnlockGameList
+	0
+	0
+	0

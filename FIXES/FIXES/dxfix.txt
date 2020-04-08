@@ -1,0 +1,5 @@
+dx_cleanup -> TermDirectX
+dx_init -> InitDirectX
+dx_create_back_buffer -> CreateBackBuffer
+dx_reinit -> ReInitDirectX
+dx_create_primary_surface -> CreatePrimarySurface

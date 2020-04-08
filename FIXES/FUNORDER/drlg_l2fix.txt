@@ -1,0 +1,37 @@
+PSX #3                        MAC 1.09b                1.09b retail
+
+STAT DRLG_L2PlaceMiniSet      DRLG_L2PlaceMiniSet      InitDungeon
+STAT DRLG_L2PlaceRndSet       DRLG_L2PlaceRndSet       L2LockoutFix
+STAT DRLG_L2Subs              DRLG_L2Subs              L2DoorFix
+STAT DRLG_L2Shadows           DRLG_L2Shadows           LoadL2Dungeon
+EXT InitDungeon               InitDungeon              DRLG_L2Pass3
+STAT DRLG_LoadL2SP            DRLG_LoadL2SP            LoadPreL2Dungeon
+STAT DRLG_FreeL2SP            DRLG_FreeL2SP            CreateL2Dungeon
+STAT DRLG_L2SetRoom           DRLG_L2SetRoom           DRLG_LoadL2SP
+STAT DefineRoom               DefineRoom               DRLG_FreeL2SP
+STAT CreateDoorType           CreateDoorType           DRLG_L2
+STAT PlaceHallExt             PlaceHallExt             DRLG_L2PlaceMiniSet
+STAT AddHall                  AddHall                  DRLG_L2PlaceRndSet
+STAT CreateRoom               CreateRoom               DRLG_L2Subs
+STAT GetHall                  GetHall                  DRLG_L2Shadows
+STAT ConnectHall              ConnectHall              DRLG_L2SetRoom
+STAT DoPatternCheck           DoPatternCheck           L2TileFix
+STAT L2TileFix                L2TileFix                CreateDungeon
+STAT DL2_Cont                 DL2_Cont                 CreateRoom
+STAT DL2_NumNoChar            DL2_NumNoChar            DefineRoom
+STAT DL2_DrawRoom             DL2_DrawRoom             AddHall
+STAT DL2_KnockWalls           DL2_KnockWalls           GetHall
+STAT DL2_FillVoids            DL2_FillVoids            ConnectHall
+STAT CreateDungeon            CreateDungeon            CreateDoorType
+STAT DRLG_L2Pass3             DRLG_L2Pass3             PlaceHallExt
+STAT DRLG_L2FTVR                                       DoPatternCheck
+STAT DRLG_L2FloodTVal                                  DL2_FillVoids
+STAT DRLG_L2TransFix          DRLG_L2TransFix          DL2_Cont
+STAT L2DirtFix                L2DirtFix                DL2_NumNoChar
+EXT L2LockoutFix              L2LockoutFix             DL2_DrawRoom
+EXT L2DoorFix                 L2DoorFix                DL2_KnockWalls
+STAT DRLG_L2                  DRLG_L2                  DRLG_L2FloodTVal
+STAT DRLG_InitL2Vals          DRLG_InitL2Vals          DRLG_L2FTVR
+EXT LoadL2Dungeon             LoadL2Dungeon            DRLG_L2TransFix
+EXT LoadPreL2Dungeon          LoadPreL2Dungeon         L2DirtFix
+EXT CreateL2Dungeon           CreateL2Dungeon          DRLG_InitL2Vals      

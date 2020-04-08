@@ -1,0 +1,18 @@
+check for undefined behavior
+======================================
+int x;
+if(y)
+  x = 2;
+Function(x)
+// compiler initializes x with junk
+--------------------------------------
+
+
+init variables
+=====================================
+ItemCAnimTbl // it
+AllItemList
+
+idx = x;//idata or itype
+AllItemList[idx]
+======================================

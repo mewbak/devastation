@@ -1,0 +1,3 @@
+DirOK
+
+separate if/else statment into if, check beta

@@ -1,0 +1,20 @@
+dx_init                   134 - 197 [149 183]
+dx_create_back_buffer     50 - 92   [59 96]
+dx_create_primary_surface 105       [109]
+dx_DirectDrawCreate       118 - 123 [122 127]
+lock_buf                  
+lock_buf_priv             222 - 224 [235]
+unlock_buf                
+unlock_buf_priv           250 - 260 [273]
+dx_cleanup                295 - 296
+dx_reinit                 334
+j_dx_reinit               last
+
+
+MAC
+dx_init
+lock_buf_priv
+lock_buf
+unlock_buf_priv
+unlock_buf
+dx_cleanup

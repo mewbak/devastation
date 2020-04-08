@@ -1,0 +1,8 @@
+Fixed           1.09             Assertion lines
+CaptureHdr      CaptureScreen    250
+CapturePal      CaptureHdr       
+CaptureEnc      CapturePal       
+CapturePix      CapturePix       169-179
+CaptureFile     CaptureEnc       
+RedPalette      CaptureFile      
+CaptureScreen   RedPalette       

@@ -1,0 +1,2 @@
+(item[ii]._iName[9] << 24) | (item[ii]._iName[10] << 16) | (item[ii]._iName[11] << 8) | item[ii]._iName[12];
+remove parenthesis

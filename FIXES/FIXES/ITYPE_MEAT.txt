@@ -1,0 +1,2 @@
+ITYPE_FOOD
+for any food

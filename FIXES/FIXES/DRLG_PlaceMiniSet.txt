@@ -1,0 +1,3 @@
+DRLG_PlaceMiniSet
+
+replace var 't' with 'tren'

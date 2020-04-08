@@ -1,0 +1,5 @@
+DrawMain
+
+fix ysize -> should be arg 1, but check debug assertion ECX value
+
+ddsdesc -> not right name, check what the fuck this does (DrawAndBlit)

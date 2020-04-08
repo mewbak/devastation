@@ -1,0 +1,40 @@
+PSX #3                  MAC 1.09b          Demo               1.09 retail
+
+STAT DRLG_PlaceDoor     DRLG_PlaceDoor     DRLG_PlaceDoor     DRLG_Init_Globals
+STAT DRLG_L1Shadows     DRLG_L1Shadows     DRLG_L1Shadows     LoadL1Dungeon
+STAT DRLG_PlaceMiniSet  DRLG_PlaceMiniSet  DRLG_PlaceMiniSet  DRLG_L1Floor
+STAT DRLG_L1Floor       DRLG_L1Floor       DRLG_L1Floor       DRLG_L1Pass3
+STAT DRLG_L1Pass3       DRLG_L1Pass3       DRLG_L1Pass3       DRLG_InitL1Vals
+STAT DRLG_LoadL1SP      DRLG_LoadL1SP      DRLG_LoadL1SP      LoadPreL1Dungeon
+STAT DRLG_FreeL1SP      DRLG_FreeL1SP      DRLG_FreeL1SP      CreateL5Dungeon
+EXT DRLG_Init_Globals   DRLG_Init_Globals                     DRLG_LoadL1SP
+STAT DRLG_InitL1Vals    DRLG_InitL1Vals    DRLG_InitL1Vals    DRLG_FreeL1SP
+EXT LoadL1Dungeon       LoadL1Dungeon      LoadL1Dungeon      DRLG_L5
+EXT LoadPreL1Dungeon    LoadPreL1Dungeon   LoadPreL1Dungeon   DRLG_PlaceDoor
+STAT InitL5Dungeon      InitL5Dungeon      InitL5Dungeon      DRLG_L1Shadows
+STAT L5ClearFlags       L5ClearFlags       L5ClearFlags       DRLG_PlaceMiniSet
+STAT L5drawRoom         L5drawRoom         L5drawRoom         InitL5Dungeon
+STAT L5checkRoom        L5checkRoom        L5checkRoom        L5ClearFlags
+STAT L5roomGen          L5roomGen          L5roomGen          L5firstRoom
+STAT L5firstRoom        L5firstRoom        L5firstRoom        L5drawRoom
+STAT L5GetArea          L5GetArea          L5GetArea          L5roomGen
+STAT L5makeDungeon      L5makeDungeon      L5makeDungeon      L5checkRoom
+STAT L5makeDmt          L5makeDmt          L5makeDmt          L5GetArea
+STAT L5HWallOk          L5HWallOk          L5HWallOk          L5makeDungeon
+STAT L5VWallOk          L5VWallOk          L5VWallOk          L5makeDmt
+STAT L5HorizWall        L5HorizWall        L5HorizWall        L5AddWall
+STAT L5VertWall         L5VertWall         L5VertWall         L5HWallOk
+STAT L5AddWall          L5AddWall          L5AddWall          L5VWallOk
+STAT DRLG_L5GChamber    DRLG_L5GChamber    DRLG_L5GChamber    L5HorizWall
+STAT DRLG_L5GHall       DRLG_L5GHall       DRLG_L5GHall       L5VertWall
+STAT L5tileFix          L5tileFix          L5tileFix          L5tileFix
+STAT DRLG_L5Subs        DRLG_L5Subs        DRLG_L5Subs        DRLG_L5Subs
+STAT DRLG_L5SetRoom     DRLG_L5SetRoom     DRLG_L5SetRoom     L5FillChambers
+STAT L5FillChambers     L5FillChambers     L5FillChambers     DRLG_L5GChamber
+STAT DRLG_L5FTVR        DRLG_L5FTVR        DRLG_L5FTVR        DRLG_L5GHall
+STAT DRLG_L5FloodTVal   DRLG_L5FloodTVal   DRLG_L5FloodTVal   DRLG_L5SetRoom
+STAT DRLG_L5TransFix    DRLG_L5TransFix    DRLG_L5TransFix    DRLG_L5FloodTVal
+STAT DRLG_L5DirtFix     DRLG_L5DirtFix     DRLG_L5DirtFix     DRLG_L5FTVR
+STAT DRLG_L5CornerFix   DRLG_L5CornerFix                      DRLG_L5TransFix
+STAT DRLG_L5            DRLG_L5            DRLG_L5            DRLG_L5DirtFix
+EXT CreateL5Dungeon     CreateL5Dungeon    CreateL5Dungeon    DRLG_L5CornerFix

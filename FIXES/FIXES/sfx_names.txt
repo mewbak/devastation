@@ -1,0 +1,4 @@
+sgpMusicTrack -> sghMusic HANDLE
+
+sfx_stream -> sghStream HANDLE
+sfx_data_cur -> sgpStreamSFX TSFX *

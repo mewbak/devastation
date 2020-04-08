@@ -1,0 +1,5 @@
+change to defines
+
+#define godmode 0
+else
+int godmode 0

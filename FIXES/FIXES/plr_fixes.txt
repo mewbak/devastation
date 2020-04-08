@@ -1,0 +1,7 @@
+RestartTownLevl
+
+ plr[pnuma]._pManaBase = plr[pnuma]._pMana - (plr[pnuma]._pMaxMana - plr[pnuma]._pMaxManaBase);
+beta
+
+
+AddPlrMonstExper optmized away long e/exp

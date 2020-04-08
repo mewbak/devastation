@@ -1,0 +1,8 @@
+PSX                    MAC                   1.09
+EXT GetManaAmount      GetManaAmount         GetManaAmount  
+EXT UseMana            UseMana               UseMana            
+EXT CheckSpell         CheckSpell            CheckSpell     
+EXT CastSpell          CastSpell             CastSpell      
+                       PlacePlayer           DoResurrect        
+EXT DoResurrect        DoResurrect           PlacePlayer        
+EXT DoHealOther        DoHealOther           DoHealOther        

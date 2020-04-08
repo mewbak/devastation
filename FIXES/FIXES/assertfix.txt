@@ -1,0 +1,13 @@
+/// ASSERT: assert(glpMsgTbl[i]);
+-multi_msg_countdown
+
+remove assertions where
+assert(x == y)
+
+was changed to
+
+if(x == y) code
+
+check scrollrt and psx refs
+
+engine gpbuffer assert vs != 0

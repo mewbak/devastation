@@ -1,0 +1,9 @@
+136bc1: $00000003 96 Def2 class REG type PTR STRUCT size 112 dims 0 tag MonsterStruct name pmonster
+11c4cf: $00000006 96 Def2 class REG type PTR STRUCT size 60 dims 0 tag MonsterData name pmonsterdata
+136be7: $00000010 94 Def class REG type INT size 0 name _mx
+136bf8: $00000013 94 Def class REG type INT size 0 name _my
+136c1b: $00000010 94 Def class REG type INT size 0 name omp
+1369c7: $00000012 94 Def class REG type INT size 0 name _moldx
+1369db: $00000011 94 Def class REG type INT size 0 name _moldy
+1370bf: $00000002 94 Def class REG type INT size 0 name _mxoff
+1370d3: $00000003 94 Def class REG type INT size 0 name _myoff

@@ -1,0 +1,38 @@
+==============================================================
+check early returns
+==============================================================
+	bnz early_return
+	mov ptr,0
+	jmp $+5            // end of function flow
+early_return:
+	pop esi
+	pop edi
+	pop ebx
+	retn
+==============================================================
+for loop iterator increase and continues
+==============================================================
+	mov i,0
+	jmp loop_start
+increase_i:
+	inc i
+loop_start:
+	cmp i, max
+	jge loop_end
+	// code
+	cmp eax,5
+	jge increase_i    // continue used here
+	jle no_incx       // no continue
+	inc x             // increase stuff not in `for()` line
+no_incx:
+	jmp increase_i
+loop_end:
+==============================================================
+math additives
+==============================================================
+	mov eax,5        \
+	add eax,i        | i = i + 5
+	mov i,eax        /
+//
+	add i,5          | i += 5
+==============================================================

@@ -1,0 +1,28 @@
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SBig.cpp
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SBLT.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SBMP.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SCMD.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SCODE.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SCOMP.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SDLG.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SDRAW.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SERR.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SEVT.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SFILE.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SGDI.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SLOG.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SMEM.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SMSG.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SNET.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SREG.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SRGN.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SSTR.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\STORM.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\STRANS.CPP
+C:\\D2\\3rdParty\\STORM\\SOURCE\\SVID.CPP
+
+//not in storm debug
+SMemCopy
+// not in old one
+// SUnicode
+// SUnicodeCP949

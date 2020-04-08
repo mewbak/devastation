@@ -1,0 +1,2 @@
+
+typedef BOOL (*CHECKFUNC1)(int, int, int);

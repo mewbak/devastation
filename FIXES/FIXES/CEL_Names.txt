@@ -1,0 +1,43 @@
+Cl2DecodeFrm1 -> DrawCL2
+Cl2DecDatFrm1 -> DecodeCL2
+Cl2DecodeFrm2 -> DrawCL2Highlight
+Cl2DecDatFrm2 -> DecodeCL2Highlight
+Cl2DecodeFrm3 -> DrawCL2Light
+Cl2DecDatLightTbl1 -> DecodeCL2Light
+Cl2DecodeLightTbl -> DrawCL2LightIdx
+
+Cl2DecodeFrm4 -> DrawCL2Clipped
+Cl2DecDatFrm4 -> DecodeCL2Clipped
+Cl2DecodeClrHL -> DrawCL2HlClipped
+Cl2DecDatClrHL -> DecodeCL2HlClipped
+Cl2DecodeFrm5 -> DrawCL2LgtClipped
+Cl2DecDatLightTbl2 -> DecodeCL2LgtClipped
+Cl2DecodeFrm6 -> DrawCL2LgtIdxClipped
+
+CelDrawDatOnly -> DecodeCEL
+CelDecodeOnly -> DrawCEL
+CelDecDatOnly -> DrawCELBuff
+CelDrawHdrOnly -> DrawCELHdr
+CelDecodeHdrOnly -> DrawCELHdrBuff
+CelDecDatLightOnly -> DecodeCELLight
+CelDecDatLightTrans -> DecodeCELTrans
+CelDecodeLightOnly -> DrawCELLightIdx
+CelDecodeHdrLightOnly -> DrawCELHdrLightIdx
+CelDecodeHdrLightTrans -> DrawCELHdrLgtTrans
+CelDrawHdrLightRed -> DrawCELTrnTbl
+
+Cel2DecDatOnly -> DecodeCELClipped
+- draw cel
+- draw cel buff
+Cel2DrawHdrOnly -> DrawCELHdrClipped
+Cel2DecodeHdrOnly -> DrawCELHdrBuffClipped
+Cel2DecDatLightOnly -> DecodeCELLightClipped
+Cel2DecDatLightTrans -> DecodeCELTransClipped
+Cel2DecodeHdrLight -> DrawCELHdrLightIdxClipped
+- hdr light idx
+Cel2DecodeLightTrans -> DrawCELHdrLgtTransClipped
+Cel2DrawHdrLightRed -> DrawCELTrnTblClipped
+
+CelDecodeRect -> DrawCELRectangle
+CelDecodeClr -> DrawCELHightlight
+CelDrawHdrClrHL -> DrawCELHdrHightlight

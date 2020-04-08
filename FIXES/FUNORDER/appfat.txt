@@ -1,0 +1,23 @@
+                                 External Use
+TriggerBreak        _DEBUG       Y
+BreakFilter         _DEBUG
+GetErrorStr         
+TraceErrorDD        
+TraceErrorDS        
+TraceLastError                   Y
+app_fatal                        Y
+MsgBox              
+FreeDlg             
+DrawDlg                          Y
+assert_fail         _DEBUG       Y
+DDErrMsg                         Y
+DSErrMsg                         Y
+center_window       
+ErrDlg                           Y
+FuncDlg             
+TextDlg             
+ErrOkDlg                         Y
+FileErrDlg                       Y
+DiskFreeDlg                      Y
+InsertCDDlg                      Y
+DirErrorDlg                      Y

@@ -1,0 +1,3 @@
+dumphist
+
+fix player_active should be 0x%x check psx

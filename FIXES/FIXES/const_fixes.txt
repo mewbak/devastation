@@ -1,0 +1,7 @@
+check const global chars after cleanups
+
+const char *str = "sound"
+
+void (const char *str)
+
+should make it const automatically

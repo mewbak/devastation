@@ -1,0 +1,23 @@
+PSX                    DEMO                MAC                     1.09b
+FillSolidBlockTbls     FillSolidBlockTbls  FillSolidBlockTbls      FillSolidBlockTbls               
+                       SwapTile            SwapTile                MakeSpeedCels                    
+                       SortTiles           SortTiles               SortTiles                        
+                       MakeSpeedCels       MakeSpeedCels           SwapTile                     
+                       IsometricCoord      IsometricCoord          IsometricCoord                   
+                       SetSpeedCels        SetSpeedCels            SetSpeedCels                 
+SetDungeonMicros       SetDungeonMicros    SetDungeonMicros        SetDungeonMicros             
+DRLG_InitTrans         DRLG_InitTrans      DRLG_InitTrans          DRLG_InitTrans                   
+DRLG_MRectTrans        DRLG_MRectTrans     DRLG_MRectTrans         DRLG_MRectTrans                      
+DRLG_RectTrans         DRLG_RectTrans      DRLG_RectTrans          DRLG_RectTrans                   
+DRLG_CopyTrans         DRLG_CopyTrans      DRLG_CopyTrans          DRLG_CopyTrans                   
+DRLG_ListTrans         DRLG_ListTrans      DRLG_ListTrans          DRLG_ListTrans                   
+DRLG_AreaTrans         DRLG_AreaTrans      DRLG_AreaTrans          DRLG_AreaTrans                   
+DRLG_InitSetPC                             DRLG_InitSetPC          DRLG_InitSetPC               
+DRLG_SetPC             DRLG_SetPC          DRLG_SetPC              DRLG_SetPC                       
+Make_SetPC                                 Make_SetPC              Make_SetPC                   
+DRLG_WillThemeRoomFit                      DRLG_WillThemeRoomFit   DRLG_WillThemeRoomFit        
+DRLG_CreateThemeRoom                       DRLG_CreateThemeRoom    DRLG_CreateThemeRoom     
+DRLG_PlaceThemeRooms                       DRLG_PlaceThemeRooms    DRLG_PlaceThemeRooms     
+DRLG_HoldThemeRooms                        DRLG_HoldThemeRooms     DRLG_HoldThemeRooms          
+SkipThemeRoom                              SkipThemeRoom           SkipThemeRoom                
+InitLevels                                 InitLevels              InitLevels                   

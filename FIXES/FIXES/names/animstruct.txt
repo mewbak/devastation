@@ -1,0 +1,6 @@
+cmem
+data
+frames
+rate
+
+flags width1/2 monst

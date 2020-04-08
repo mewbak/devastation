@@ -1,0 +1,21 @@
+PSX                                 MAC                                  PC 1.09
+EXT  effect_is_playing__Fi          effect_is_playing     //             effect_is_playing
+EXT  stream_stop__Fv                stream_stop           //             stream_stop
+STAT stream_play__FP4TSFXll         stream_play           // static      InitMonsterSND
+STAT stream_update__Fv              stream_update         // static      FreeMonsterSnd
+STAT sfx_stop__Fv                   sfx_stop              // static      PlayEffect
+EXT  InitMonsterSND__Fi             InitMonsterSND        //             calc_snd_position
+EXT  FreeMonsterSnd__Fv             FreeMonsterSnd        //             PlaySFX
+STAT calc_snd_position__FiiPlT2     calc_snd_position     // static      PlaySFX_priv
+STAT PlaySFX_priv__FP4TSFXUcii      PlaySFX_priv          // static      stream_play
+EXT  PlayEffect__Fii                PlayEffect            //             RndSFX
+STAT RndSFX__Fi                     RndSFX                // static      PlaySfxLoc
+EXT  PlaySFX__Fi                    PlaySFX               //             sound_stop
+EXT  PlaySfxLoc__Fiii               PlaySfxLoc            //             sfx_stop
+EXT  sound_stop__Fv                 sound_stop            //             sound_update
+EXT  sound_update__Fv               sound_update          //             stream_update
+                                    effects_cleanup_sfx   //             effects_cleanup_sfx
+STAT priv_sound_init__FUc           priv_sound_init       // static      sound_init
+EXT  sound_init__Fv                 sound_init            //             priv_sound_init
+                                    ui_sound_init         //             ui_sound_init
+                                    effects_play_sound    //             effects_play_sound

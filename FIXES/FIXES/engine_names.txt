@@ -1,0 +1,6 @@
+void DrawSpellCel(int xp, int yp, BYTE *Trans, int nCel, int w)
+void CelDecodeOnly(int sx, int sy, BYTE *pCelBuff, int nCel, int nWidth)
+
+
+// fixed
+void DrawCel(long xp, long yp, BYTE *pCelBuff, long nCel, int w)

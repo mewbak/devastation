@@ -1,0 +1,37 @@
+PSX #3                        MAC 1.09b             1.09b retail
+
+STAT DRLG_L4Shadows           DRLG_L4Shadows        DRLG_LoadL4SP
+STAT InitL4Dungeon            InitL4Dungeon         DRLG_FreeL4SP
+EXT DRLG_LoadL4SP             DRLG_LoadL4SP         DRLG_L4SetSPRoom
+EXT DRLG_FreeL4SP             DRLG_FreeL4SP         L4SaveQuads
+EXT DRLG_L4SetSPRoom          DRLG_L4SetSPRoom      DRLG_L4SetRoom
+STAT L4makeDmt                L4makeDmt             DRLG_LoadDiabQuads
+STAT L4HWallOk                L4HWallOk             IsDURWall
+STAT L4VWallOk                L4VWallOk             IsDLLWall
+STAT L4HorizWall              L4HorizWall           L4FixRim
+STAT L4VertWall               L4VertWall            DRLG_L4GeneralFix
+STAT L4AddWall                L4AddWall             CreateL4Dungeon
+STAT L4tileFix                L4tileFix             DRLG_L4
+STAT DRLG_L4Subs              DRLG_L4Subs           DRLG_L4Shadows
+STAT L4makeDungeon            L4makeDungeon         InitL4Dungeon
+STAT uShape                   uShape                L4makeDmt
+STAT GetArea                  GetArea               L4AddWall
+STAT L4drawRoom               L4drawRoom            L4HWallOk
+STAT L4checkRoom              L4checkRoom           L4VWallOk
+STAT L4roomGen                L4roomGen             L4HorizWall
+STAT L4firstRoom              L4firstRoom           L4VertWall
+EXT L4SaveQuads               L4SaveQuads           L4tileFix
+EXT DRLG_L4SetRoom            DRLG_L4SetRoom        DRLG_L4Subs
+EXT DRLG_LoadDiabQuads        DRLG_LoadDiabQuads    L4makeDungeon
+STAT DRLG_L4PlaceMiniSet      DRLG_L4PlaceMiniSet   uShape
+STAT DRLG_L4FTVR                                    GetArea
+STAT DRLG_L4FloodTVal                               L4firstRoom
+EXT IsDURWall                 IsDURWall             L4drawRoom
+EXT IsDLLWall                 IsDLLWall             L4roomGen
+STAT DRLG_L4TransFix          DRLG_L4TransFix       L4checkRoom
+STAT DRLG_L4Corners           DRLG_L4Corners        DRLG_L4PlaceMiniSet
+EXT L4FixRim                  L4FixRim              DRLG_L4FloodTVal
+EXT DRLG_L4GeneralFix         DRLG_L4GeneralFix     DRLG_L4FTVR
+STAT DRLG_L4                  DRLG_L4               DRLG_L4TransFix
+STAT DRLG_L4Pass3             DRLG_L4Pass3          DRLG_L4Corners
+EXT CreateL4Dungeon           CreateL4Dungeon       DRLG_L4Pass3                

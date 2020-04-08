@@ -1,0 +1,21 @@
+PSX                            MAC                             PC 1.09
+EXT  snd_update__FUc           snd_update                      snd_update                     // 
+STAT snd_get_volume__FPCcPl    sound_dup_channel               snd_stop_snd                   // 
+EXT  snd_stop_snd__FP4TSnd     snd_get_volume                  snd_playing                    // 
+EXT  snd_play_snd__FP4TSFXll   snd_set_volume                  snd_play_snd                   // 
+EXT  snd_play_msnd__FUsll      sound_file_reload               sound_dup_channel              // static
+EXT  snd_init__FUl             snd_stop_snd                    sound_file_reload              // static
+EXT  music_stop__Fv            snd_playing                     sound_file_load                // 
+EXT  music_fade__Fv            snd_play_snd                    sound_CreateSoundBuffer        // static
+EXT  music_start__Fi           sound_CreateSoundBuffer         sound_file_cleanup             // 
+                               sound_file_load                 snd_init                       // 
+                               sound_file_cleanup              snd_get_volume                 // static
+                               sound_create_primary_buffer     sound_create_primary_buffer    // static
+                               sound_DirectSoundCreate         sound_DirectSoundCreate        // static
+                               snd_init                        sound_cleanup                  // 
+                               sound_cleanup                   snd_set_volume                 // static
+                               music_stop                      music_stop                     // 
+                               music_start                     music_start                    // 
+                               sound_disable_music             sound_disable_music            // 
+                               sound_get_or_set_music_volume   sound_get_or_set_music_volume  // 
+                               sound_get_or_set_sound_volume   sound_get_or_set_sound_volume  // 

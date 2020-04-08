@@ -1,0 +1,5 @@
+1.09b sound fix
+
+DSBUFFERDESC 0x14 -> 0x24
+- sound_CreateSoundBuffer
+- sound_create_primary_buffer

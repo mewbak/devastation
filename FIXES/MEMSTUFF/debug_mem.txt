@@ -1,0 +1,20 @@
+20 byte (0x14) header
+======================
+void *pPrevious;
+int nSig;
+DWORD size1; // 5e4 zerod over 7b000
+DWORD size2;
+DWORD size3; // was 0 on 2nd call
+
+engine_add_cur_sig - eax return sum
+of total size1
+
+24 byte (0x18) header
+=========================
+DWORD data_size
+int nSig
+DWORD head1
+DWORD head2
+BYTE data[data_size]
+DWORD foot1
+DWORD foot2

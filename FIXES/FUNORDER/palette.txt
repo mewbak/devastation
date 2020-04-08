@@ -1,0 +1,23 @@
+double check LoadSysPal
+
+PSX                     MAC                             1.09                            EXTERN
+EXT LoadPalette         palette_update                  SaveGamma                       Y   
+EXT LoadRndLvlPal       ApplyGamma                      palette_init                    Y   
+EXT ResetPal            SaveGamma                       LoadGamma                           
+STAT SetFadeLevel       LoadGamma                       LoadSysPal                          
+EXT GetFadeState        [LoadSysPal]                    LoadPalette                     Y   
+EXT DrawFadedScreen     palette_init                    LoadRndLvlPal                   Y   
+EXT BlackPalette        LoadPalette                     ResetPal                        Y   
+EXT PaletteFadeInTask   LoadRndLvlPal                   IncreaseGamma                   Y   
+EXT PaletteFadeIn       ResetPal                        palette_update                      
+EXT PaletteFadeOutTask  IncreaseGamma                   ApplyGamma                          
+EXT PaletteFadeOut      DecreaseGamma                   DecreaseGamma                   Y   
+                        UpdateGamma                     UpdateGamma                     Y
+                        SetFadeLevel                    BlackPalette                    Y
+                        BlackPalette                    SetFadeLevel                    
+                        PaletteFadeIn                   PaletteFadeIn                   Y
+                        PaletteFadeOut                  PaletteFadeOut                  Y
+                        palette_update_caves            palette_update_caves            Y
+                        Lava2Water                      Lava2Water                      Y
+                        palette_get_colour_cycling      palette_get_colour_cycling      Y
+                        palette_set_color_cycling       palette_set_color_cycling       Y

@@ -1,0 +1,3 @@
+wCheck == 0x6970
+
+should use hex not 'ip'

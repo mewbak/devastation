@@ -1,0 +1,1 @@
+UiProfileGetString is char * not int

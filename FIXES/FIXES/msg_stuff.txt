@@ -1,0 +1,3 @@
+// use sizeof(*p) instead of sizeof(p[i])
+// check delta_get_item tired
+// On_DLEVEL check casting on string

@@ -1,0 +1,35 @@
+PSX                      FIXED   MAC                       1.09                      EXTERN          
+EXT FreeGameMem          static  diablo_parse_flags        FreeGameMem               Y               
+STAT start_game                  FreeGameMem               StartGame                 Y               
+STAT free_game           static  start_game                run_game_loop              [StartGame]    
+EXT StartGame            static  free_game                 start_game                 [run_game_loop]
+STAT run_game_loop       static  run_game_loop             free_game                  [run_game_loop]
+EXT TryIconCurs                  StartGame                 diablo_get_not_running     [WinMain]      
+EXT DisableInputWndProc  static  diablo_init_screen        WinMain                   -               
+STAT GM_Game                     [diablo_get_not_running]  diablo_parse_flags         [WinMain]      
+EXT LoadLvlGFX           static  [diablo_find_window]      diablo_init_screen         [WinMain]      
+EXT LoadAllGFX           static  [diablo_reload_process]   diablo_find_window         [WinMain]      
+EXT CreateLevel                  WinMain                   diablo_reload_process      [WinMain]      
+EXT LoadGameLevel        static  LeftMouseCmd              PressEscKey               Y               
+STAT game_logic          static  TryIconCurs               DisableInputWndProc       Y               
+STAT timeout_cursor      static  LeftMouseDown             GM_Game                    [run_game_loop]
+STAT game_loop           static  LeftMouseUp               LeftMouseDown              [GM_Game]      
+                         static  RightMouseDown            LeftMouseCmd               [LeftMouseDown]
+                         [check] j_gmenu_run_item          TryIconCurs                [LeftMouseDown]
+                         static  diablo_pause_game         LeftMouseUp                [GM_Game]      
+                         static  diablo_hotkey_msg         RightMouseDown             [GM_Game]      
+                         static  PressSysKey               j_gmenu_run_item           [GM_Game]      
+                         static  ReleaseKey                PressSysKey                [GM_Game]      
+                                 PressEscKey               diablo_hotkey_msg          [PressSysKey]  
+                         static  PressKey                  ReleaseKey                 [GM_Game]      
+                         static  PressChar                 PressKey                   [GM_Game]      
+                                 DisableInputWndProc       diablo_pause_game          [PressKey]     
+                         static  GM_Game                   PressChar                  [GM_Game]      
+                                 LoadLvlGFX                LoadLvlGFX                 [LoadGameLevel]
+                                 LoadAllGFX                LoadAllGFX                 [LoadGameLevel]
+                                 CreateLevel               CreateLevel                [LoadGameLevel]
+                                 LoadGameLevel             LoadGameLevel             Y               
+                         static  game_logic                game_loop                  [run_game_loop]
+                         static  timeout_cursor            game_logic                 [game_loop]    
+                         static  game_loop                 timeout_cursor             [game_loop]    
+                         static  diablo_color_cyc_logic    diablo_color_cyc_logic     [run_game_loop]
